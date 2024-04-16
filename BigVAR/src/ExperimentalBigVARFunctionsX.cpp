@@ -12,7 +12,7 @@
 using namespace Rcpp;
 using namespace arma;
 
-// omp_set_num_threads(4);
+omp_set_num_threads(28);
 
 
 //find max of a list 
